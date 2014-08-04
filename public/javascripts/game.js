@@ -87,7 +87,7 @@ $(document).ready(function() {
     };
 
     var handleGameOver = function(data) {
-        updateStatus("You " + (data.winnerId == playerId ? "win" : "lost") + "!");
+        alert("You " + (data.winnerId == playerId ? "win" : "lost") + "!");
         disableButtons();
     };
 
